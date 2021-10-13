@@ -24,7 +24,7 @@
 <view class="bg">
   <view class="head">
     <view class="headicon">
-      <image src="{{userInfo.avatarUrl}}" style="width=70px;height=70px"></image>
+      <image src="{{userInfo.avatarUrl}}"></image>
     </view>
 
     <view class="login">

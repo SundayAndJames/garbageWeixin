@@ -9,7 +9,21 @@ Page({
       image_url:'',
       result:''
     },
-
+    abc:function(){
+      wx.request({
+        url: 'http://10.69.13.158:8001/index/4/5', //仅为示例，并非真实的接口地址
+        data: {
+          // x: '1',
+          // y: '2'
+        },
+        header: {
+          'content-type': 'application/json' // 默认值
+        },
+        success (res) {
+          console.log(res.data)
+        }
+      })
+    },
     // 定义函数：confirm
     confirm:function(){
       this.setData({

@@ -17,7 +17,7 @@
 <button type="primary" plain="true" open-type="share">推广→朋友</button>
 <!-- 爱心公益 -->
 <navigator url="/pages/person/person" open-type="switchTab">
-    <button type="warn" plain="true">爱心公益</button>
+    <button type="warn" plain="true" bindtap="abc">爱心公益</button>
 </navigator>
 
 <!-- 目前来说：下面的部分还未能完成链接 -->

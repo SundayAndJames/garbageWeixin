@@ -1,0 +1,9 @@
+.box1{
+  width: 0;
+  height: 0;
+  /* transparent:表示透明 */
+  border: 30px solid transparent;
+  border-right-color: yellowgreen;
+  border-left-color: skyblue;
+  margin: auto;
+}
