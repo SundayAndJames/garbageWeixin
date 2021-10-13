@@ -1,0 +1,22 @@
+<!-- 需要给input标签绑定一个input事件
+      绑定关键字：bindinput -->
+<!-- 如何获取输入框的值
+      通过事件源对象来获取的e.detail.value -->
+<!-- 把输入框的值赋值到data当中
+      1.不能直接this.data.num=e.detail.value
+      正确写法：
+        this.setData({
+          num:e.detail.value
+        }) -->
+        
+<input type="text" bindinput="handleinput"/>
+<!-- 需要加入一个点击事件：绑定点击事件
+      1.bindtap
+      2.无法在小程序的事件中直接进行传参的
+      3.需要通过自定义属性的方式来传递参数 -->
+<button type="primary" bindtap="handleclick" data-operation="{{1}}">+</button>
+<button type="default" bindtap="handleclick"
+data-operation="{{-1}}">-</button>
+<view>
+{{num}}
+</view>

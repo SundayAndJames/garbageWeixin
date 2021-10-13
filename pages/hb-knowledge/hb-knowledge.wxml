@@ -1,0 +1,53 @@
+<!-- 轮播图：环保小贴士 -->
+<swiper 
+          indicator-dots="true" 
+          indicator-color="orange" 
+          indicator-active-color="skyblue" 
+          autoplay="true" 
+          interval="3000"
+          duration="2000"
+          circular="true" 
+          easing-function="easeInOutCubic"
+          >
+      <swiper-item item-id="跳转到首页">
+      <!-- navigator属性：
+            target：如果是self(默认值)则就跳转在本小程序内；或者其他小程序miniProgram的名字：跳转到其他小程序
+            1 navigator：默认值，保留当前页面，跳转到应用内的某个页面，但是不能跳转到tabbar页面
+            2 redirect：关闭当前页面，跳转到应用内的某个而页面，但是不允许跳转到tabbar页面
+            3 switchTab：跳转到tabbar页面，并关闭其他所有的非tabbar页面
+            4 reLaunch：关闭所有页面，打开到应用内的某个页面
+            5 navigateBack：关闭当前页面，并且返回上一页面或者多级页面
+            6 exit：推出其他小程序，当target="miniProgram"时生效-->
+        <navigator url="/pages/index/index" open-type="switchTab">
+          <image src="https://preview.qiantucdn.com/auto_machine/20201123/2de4b77e-eee1-402d-92fe-c2a0d07fc98f.jpg!w1024_new_small" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+            
+      <swiper-item item-id="可回收垃圾">
+        <navigator url="/pages/recycle_waste/recycle_waste">
+          <image src="https://preview.qiantucdn.com/58pic/35/13/57/71C58PICBDf272DSn3wHh_PIC2018.jpg!w1024_new_0" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>  
+
+      <swiper-item item-id="厨余垃圾">
+        <navigator url="/pages/kitchen_waste/kitchen_waste">
+          <image src="https://preview.qiantucdn.com/58pic/35/13/57/61Q58PIC4C7fdbWAmS3cf_PIC2018.jpg!w1024_new_0" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+
+      <swiper-item item-id="有害垃圾">
+        <navigator url="/pages/harmful_waste/harmful_waste">
+          <image src="https://preview.qiantucdn.com/58pic/35/13/58/26K58PICQef3zbf6yC0r7_PIC2018.jpg!w1024_new_0" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+
+      <swiper-item item-id="其它垃圾">
+        <navigator url="/pages/other_waste/other_waste">
+          <image src="https://preview.qiantucdn.com/58pic/35/13/58/17e58PICNh0QK7CtJceN8_PIC2018.jpg!w1024_new_0" mode="widthFix"></image>
+        </navigator>
+      </swiper-item>
+</swiper>
+
+<view class="hb-know-buttom">
+  你好
+</view>

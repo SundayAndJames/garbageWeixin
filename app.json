@@ -1,0 +1,70 @@
+{
+    "pages": [  
+        "pages/index/index",
+        "pages/demo13/demo13",
+        "pages/demo12/demo12",
+        "pages/demo11/demo11",
+        "pages/demo8/demo8",
+        "pages/demo6/demo6",
+        "pages/demo5/demo5",
+        "pages/demo7/demo7",
+        "pages/person/person",
+        "pages/countscore/countscore",
+        "pages/hb-knowledge/hb-knowledge",
+        "pages/knowledge/knowledge",
+        "pages/tiaojianxuanran/tiaojianxuanran",
+        "pages/bianliang/bianliang",
+        "pages/hanshu/hanshu",
+        "pages/test1/test1",
+        "pages/logs/logs",
+        "pages/recycle_waste/recycle_waste",
+        "pages/kitchen_waste/kitchen_waste",
+        "pages/harmful_waste/harmful_waste",
+        "pages/other_waste/other_waste",
+        "pages/waste/waste",
+        "pages/button/button",
+        "pages/demo9/demo9"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#66c6ba",
+        "navigationBarTitleText": "智能垃圾分类系统",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#aabbcc"
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "icon/首页0.png",
+                "selectedIconPath": "icon/首页1.png"
+            },
+            {
+                "pagePath": "pages/countscore/countscore",
+                "text": "竞赛X积分",
+                "iconPath": "icon/积分0.png",
+                "selectedIconPath": "icon/积分1.png"
+            },
+            {
+                "pagePath": "pages/hb-knowledge/hb-knowledge",
+                "text": "环保小知识",
+                "iconPath": "icon/环保小知识0.png",
+                "selectedIconPath": "icon/环保小知识1.png"
+            },
+            {
+                "pagePath": "pages/person/person",
+                "text": "个人中心",
+                "iconPath": "icon/个人中心0.png",
+                "selectedIconPath": "icon/个人中心1.png"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

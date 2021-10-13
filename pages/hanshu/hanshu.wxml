@@ -1,0 +1,6 @@
+<text bindtap="getname1">请点击我</text>
+<view bindtap="getname2">点击view组件</view>
+<button bindtap="getname3">点击button组件</button>
+
+<!-- input的绑定输入 -->
+<input bindinput="getcontent" placeholder="请输入内容" value="" type="number">playhoulder</input>

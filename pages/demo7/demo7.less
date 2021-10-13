@@ -1,0 +1,20 @@
+// 定义less变量
+@color:skyblue;
+text{
+    // 使用变量
+    color: @color;
+}
+
+view{
+    .vie1{
+        text{
+            color: coral;
+        }
+    }
+}
+
+// 导入reset.less
+@import "../../styles/reset.less";
+view{
+    color:@theme_color;
+}

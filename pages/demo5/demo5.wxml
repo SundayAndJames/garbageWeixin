@@ -1,0 +1,12 @@
+
+<!-- 图片存在默认宽度和高度，320*240 -->
+<!-- 2 mode属性决定图片内容如何和图片标签的宽高做适配 -->
+<!-- scaletofill默认值 表示不包吃纵横比缩放图片，使得图片的宽高完全拉伸至填满image标签 -->
+<!-- aspectfit:保持宽高比，确保图片的长边显示出来 -->
+<!-- aspectfill:保持宽高比，确保短边完全显示 -->
+<!-- widthfix:宽度不变，高度自动变化，保持原图宽高比不变，相当于web中的宽高缩放模式 -->
+<!-- 小程序中的图片直接就支持懒加载：lazy-load：会在积极判断，当图片出现在视口上下三屏的高度之内，小程序就会开始自己加载图片 -->
+<image src="https://z3.ax1x.com/2021/10/05/4jR3UP.jpg" mode="aspectFit"></image>
+<image src="https://z3.ax1x.com/2021/10/05/4joaWt.jpg" mode="widthFix" lazy-load="true"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/381584b237a863d8.jpg"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/7b2aac203cc7c091.jpg"></image>

@@ -1,0 +1,21 @@
+<!-- 1.radio单选框标签：选中/未选中
+     2.radio配合父元素radio-group来使用
+     3 value选中的单选框的值
+     4.需要在页面中显示选中的值-->
+<radio-group bindchange="handlechange">
+    <radio value="男生" color="skyblue">男生</radio>
+    <radio value="女生" color="orange">女生</radio>
+</radio-group>
+
+<view>
+      <button type="primary" plain="true">你选中的是:{{get_sex}}</button>
+</view>
+
+<!-- 复选框：checkbox -->
+<checkbox-group bindchange="checkchange">
+  <checkbox value="{{item.value}}" wx:for="{{list}}" wx:key="id">
+  {{item.name}}</checkbox>
+</checkbox-group>
+<view>
+  你选中的水果有：{{checkedlist}}
+</view>

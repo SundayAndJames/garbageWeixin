@@ -1,0 +1,20 @@
+<!-- 小程序中的字体图标
+      1.type 图标类型
+            success
+            success_no_circle
+            info
+            warn
+            waiting
+            cancel
+            download
+            search
+            clear -->
+<icon type="success" size="50" color="rgba(167, 193, 217)"></icon>
+<icon type="success_no_circle" size="50"></icon>
+<icon type="info" size="50"></icon>
+<icon type="warn" size="50"></icon>
+<icon type="waiting" size="50"></icon>
+<icon type="cancel" size="50"></icon>
+<icon type="download" size="50"></icon>
+<icon type="search" size="50"></icon>
+<icon type="clear" size="50"></icon>

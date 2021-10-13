@@ -1,0 +1,14 @@
+<view hover-class="h-class"
+  hover-start-time="0"
+  hover-stay-time="200">
+    点我试试
+</view>
+
+<!-- 
+    1.长按文字复制：手机端比较好体验
+    2.对文本内容进行解码
+ -->
+<text selectable="true" decode="true">
+    选中我试试，看看能不能复制。&nbsp;1&nbsp;23
+    
+</text>

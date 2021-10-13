@@ -1,0 +1,7 @@
+.view1{
+  background: chartreuse;
+  padding: 10px;
+}
+.text1{
+  background: coral;
+}

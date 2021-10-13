@@ -1,0 +1,6 @@
+<input placeholder="请输入要删除或者增加的数字" bindinput="getnum" maxlength="5" type="number">
+</input>
+<button type="primary" bindtap="add">增加</button>
+<button type="warn" bindtap="delete">删除</button>
+数组里的元素如下：
+<text>{{nums}}</text>

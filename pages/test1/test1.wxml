@@ -1,0 +1,7 @@
+<view>hello,微信小程序</view>
+<view>我是YOUNG</view>
+<view>欢迎学习view组件</view>
+<!-- text组件学习 -->
+<view class="view1">
+  <text class="text1">欢迎学习text组件</text>
+</view>

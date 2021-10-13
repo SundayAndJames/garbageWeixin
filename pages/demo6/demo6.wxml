@@ -1,0 +1,39 @@
+<!-- 轮播图组件：外层容器swiper
+      每一个轮播项：swiper-item -->
+<!-- swiper存在默认样式：
+        1 width：100%；
+        2 height 150px   image存在默认宽度和高度：320*240px
+        3 swiper高度无法实现由内容撑开
+        4 先找出原图的高度和宽度等比例给swiper定宽度和高度
+        swiper宽度/swiper高度=原图宽度/原图高度
+        swiper高度=swiper宽度*原图高度/原图宽度
+        swiper-height=100vw*280px/520px -->
+
+<!-- autoplay:自动轮播 -->
+<!-- interval：自动切换时间间隔：单位毫秒-->
+<!-- circular:是否采用衔接滑动，衔接轮播 -->
+<!-- indicator-dots:指示器 -->
+<!-- indicator-color:指示器的未选中的颜色 -->
+<!-- indicator-actor-color：指示器选中时的颜色 -->
+<!-- current：当前所在滑块的index：也就是从哪个滑块开始轮播 -->
+<!-- duration：滑动动画时长 -->
+<!-- vertical：滑动方向是否为纵向 -->
+<!-- easing-function：动画模式设置 -->
+<swiper 
+        autoplay="true" 
+        interval="3000" 
+        circular="false" 
+        indicator-dots="true" 
+        indicator-color="skyblue"
+        indicator-active-color="yellow"
+        current="0"
+        duration="1500"
+        previous-margin="20px"
+        next-margin="20px"
+        easing-function="easeInOutCubic"
+        >
+    <swiper-item><image mode="widthFix" src="https://gtms03.alicdn.com/tps/i3/TB1gXd1JXXXXXapXpXXvKyzTVXX-520-280.jpg"></image></swiper-item>
+    <swiper-item><image mode="widthFix" src="https://img.alicdn.com/imgextra/i2/6000000005372/O1CN01vavLhi1pYQNBOURCX_!!6000000005372-0-octopus.jpg"></image></swiper-item>
+    <swiper-item><image mode="widthFix" src="https://gtms01.alicdn.com/tps/i1/TB1r4h8JXXXXXXoXXXXvKyzTVXX-520-280.jpg"></image></swiper-item>
+    <swiper-item><image mode="widthFix" src="https://gtms02.alicdn.com/tps/i2/TB10vPXKpXXXXacXXXXvKyzTVXX-520-280.jpg"></image></swiper-item>
+</swiper>

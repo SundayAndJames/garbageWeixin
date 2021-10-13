@@ -1,0 +1,61 @@
+<!-- <view class="title">
+  <view class="text">
+    我的空间
+  </view>
+</view>
+
+<view class="vx" hover-class='hover_vx'>
+  <image src="/icon/erweima.png"></image>
+</view>
+
+<view class="vx_1">
+  <image src="https://s3.bmp.ovh/imgs/2021/10/a034ee629e13ef0f.jpg" mode="aspectFit" show-menu-by-longpress="true" class="wechat"></image>
+  <view class="text">
+    <button type="primary">打赏</button>
+  </view>
+</view>
+
+<navigator url="/pages/isMe/isMe">
+  <view class="button">
+    联系热线:yjf000821
+  </view>
+</navigator> -->
+
+<view class="bg">
+  <view class="head">
+    <view class="headicon">
+      <image src="{{userInfo.avatarUrl}}" style="width=70px;height=70px"></image>
+    </view>
+
+    <view class="login">
+        {{userInfo.nickName}}
+    </view>
+  </view>
+
+  <button class="button" open-type="getUserInfo" wx:if="{{headUserInfo}}" bindgetuserinfo="doAuthorization">微信登录</button>
+</view>
+
+<view class="hr"></view>
+<view class="item">
+  <view class="title">手机绑定</view>  
+  <view class="detail2">
+    <text>》</text>
+  </view>
+</view>
+
+<view class="item">
+  <view class="title">意见反馈
+  </view>
+  <view class="detail2">
+    <text>》</text>
+  </view>
+</view>
+
+<view class="item">
+  <view class="title">设置</view>
+  <view class="detail2">
+    <text>》</text>
+  </view>
+</view>
+
+<view class="hr"></view>

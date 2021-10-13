@@ -1,0 +1,33 @@
+<page-meta
+    root-background-color="https://s3.bmp.ovh/imgs/2021/10/b122ab45908e819b.jpg"></page-meta>
+
+<view class="container">
+<!-- 首页图片 -->
+      <image class="background" src="https://s3.bmp.ovh/imgs/2021/10/0cd61001e4bf1f62.jpg" mode="aspectFit"></image>
+
+<!-- 操作按钮：智能识别：可以选择系统中相册文件或者是启动设备拍照功能 -->
+      <view>
+      <!-- bindtap:表示点击时相应的功能如何；type：选择按钮的样式 -->
+          <button class="bt1" bindtap="chooseimage" type="primary">智能识别</button>
+      </view>
+
+<!-- 联系客服 -->
+<button type="warn" plain="true" open-type="contact">联系客服</button>
+<!-- 分享功能 -->
+<button type="primary" plain="true" open-type="share">推广→朋友</button>
+<!-- 爱心公益 -->
+<navigator url="/pages/person/person" open-type="switchTab">
+    <button type="warn" plain="true">爱心公益</button>
+</navigator>
+
+<!-- 目前来说：下面的部分还未能完成链接 -->
+      <modal hidden="{{hidden}}" confirm-text="确定" bindconfirm="confirm" no-cancel="{{nocancel}}">
+          <view>
+              <image class="image" src="{{tempFilePaths}}"></image>
+          </view>
+          <view class="result">
+              {{result}}
+          </view>
+      
+      </modal>
+</view>

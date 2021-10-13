@@ -1,0 +1,14 @@
+text {
+  color: skyblue;
+}
+view .vie1 text {
+  color: coral;
+}
+view {
+  color: orange;
+  text-align: center;
+}
+.h-class{
+  font-size: 30px;
+  color: aquamarine;
+}
